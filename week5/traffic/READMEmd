@@ -1,0 +1,6 @@
+What I've tried? My first model was a simple one, without using any filters and one hidden layer with 128 neuron,
+this firts atempt worked well with 91% and the program was prety fast. 
+For my second attempt I added convolutional filter with 32 filters and max pooling, in this second try the 
+Neuron Network was able to perform better, it captured 98% in the training data, but only 94% in test set. 
+It happend because of overfitting, in my last try i used Dropout of 0.5, and in this last try the model was better,
+the accuracy in training was 91% but accuracy in test set was 97.3%. 
